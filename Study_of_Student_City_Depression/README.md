@@ -8,7 +8,7 @@ The following figures illustrate the depression rates for workers and students:
 
 ![Depression in Working Professionals](fig/Work_Working_Professional.png)
 
-![Depression in Students](fig/Work_Work_Student.png)
+![Depression in Students](fig/Work_Student.png)
 
 Key observations from these figures:
 
