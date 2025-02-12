@@ -63,7 +63,7 @@ The overall test score for this version was 0.94109, later reaching 0.94163 with
 **Version 2.5: Student/Worker Stratification with CGPA [Mental_Health.V2.5](Mental_Health.V2.5/)**
 
 This version explored the inclusion of 'CGPA' for students. However, the correlation between 'CGPA' and 'Depression' was minimal, and the final score was 0.94083, lower than the previous version.
-![Correlation](Mental_Health.V2.5/fig_corr_S_1)
+![Correlation](Mental_Health.V2.5/fig_corr_S_1.png)
 
 
 **Version 3: Name Stratification (Mental_Health.V3)**
