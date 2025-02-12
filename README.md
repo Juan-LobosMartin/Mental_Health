@@ -35,7 +35,7 @@ An investigation was conducted to assess the potential impact of the dropped col
 ![Depression and Demographics in Varanasi](Study_columns/fig/City_Varanasi.png)
 ![Depression and Demographics in Thane](Study_columns/fig/City_Thane.png)
 *   **'Working Professional or Student':** This column revealed a substantial difference in depression rates, with 50% of students reporting depression compared to only 8% of workers.
-![Depression in Working Professionals](fig/Work_Working_Professional.png)
+![Depression in Working Professionals](Study_columns/fig/Work_Working_Professional.png)
 ![Depression in Students](Study_columns/fig/Work_Student.png)
 
 *   **Gender:** No significant difference in depression rates was observed between genders.
