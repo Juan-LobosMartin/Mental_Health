@@ -2,10 +2,11 @@
 Kaggle Playground Series - Season 4, Episode 11
 
 This repository documents my work on the Kaggle Playground competition for Season 4, Episode 11. 
+`Last update as of Feb 12, 2025`
 
 ## Mental Health Prediction Project
 
-This project focused on developing a predictive model for mental health status using the provided `Datasheet/Mental_Health.zip` dataset.  An agile methodology was employed, with iterative improvements made throughout the development process.
+This project focused on developing a predictive model for mental health status using the provided `Datasheet/Mental_Health.zip` [dataset](Datasheet/Mental_Health.zip).  An agile methodology was employed, with iterative improvements made throughout the development process.
 
 The models were trained using scikit-learn:
 
@@ -21,7 +22,7 @@ The dataset was initially preprocessed by removing the following columns: 'Name'
 
 ### Iterative Improvements (Agile Methodology)
 
-**Version 2: Study of Dropped Columns**
+**Version 2: Study of [Dropped Columns](Study_columns/)**
 
 An investigation was conducted to assess the potential impact of the dropped columns on model performance.
 
