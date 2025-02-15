@@ -1,5 +1,6 @@
 # Mental_Health 
 Kaggle Playground Series - Season 4, Episode 11
+[Walter Reade and Elizabeth Park. Exploring Mental Health Data, 2024. Kaggle.](https://kaggle.com/competitions/playground-series-s4e11)
 
 This repository documents my work on the Kaggle Playground competition for Season 4, Episode 11. 
 `Last update as of Feb 12, 2025`

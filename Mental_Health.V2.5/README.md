@@ -1,39 +1,35 @@
-# Mental_Health 
-Kaggle Playground Series - Season 4, Episode 11
+## Student/Worker Segmentation Models with CGPA Feature
 
-This repository documents my work on the Kaggle Playground competition for Season 4, Episode 11. 
+This section describes the model segmentation based on student/worker status, incorporating a new feature for students.
 
-## Version 1: Initial Exploration
+**Data Preprocessing:**
 
-* **Objective:** Build a baseline model for predicting depression in the dataset.
-* **Methodology:**
-    * Dropped a significant number of columns for initial model building.
-    * Implemented and compared two models: Random Forest and XGBoost.
-    * Utilized GridSearchCV for hyperparameter tuning. 
-* **Findings:**
-    * Data analysis with Python demonstrated the ability to handle large datasets efficiently.
-    * GridSearchCV yielded marginal improvements in model performance.
-    * Both models achieved better-than-expected results.
+The following columns were processed as described:
 
-## Version 2: In-depth Analysis
+* **Dropped Columns:**
+    * `Name`
+    * `Profession`
+    * `Degree`
+* **Excluded from Model:**
+    * `id`
+    * `City`
 
-* **Dataset Overview:**
-    * Collected from 30 cities in India.
-    * Contains 234,500 rows and 18 columns.
-    * Train set: 140,700 individuals with known depression diagnoses.
-    * Test set: 93,800 individuals for which depression status needs to be predicted.
-* **Objective:** 
-    * **Data Analysis:** Investigate the influence of various external factors on depression.
-    * **Model Development:** Build a predictive model to identify individuals at risk of depression.
-* **Key Findings:**
-    * **Students** were identified as a high-risk group for depression.
-    * **City of residence** significantly influenced depression prevalence.
-    * Achieved high prediction accuracy exceeding 0.92.
+**Model Segmentation:**
 
-## Discussion
+Models were segmented by `Working Professional or Student`.
 
-While lacking a formal psychology background, my observations align with personal experiences as a former university professor. The significant stress experienced by students concerning their future likely plays a crucial role in the development of depression. This analysis provides valuable insights into the potential impact of depression on a large scale in India, highlighting the need for targeted interventions and support programs.
+**Observations:**
 
+A new column, `CGPA`, was added specifically for the student segment.
 
+Correlation analysis (see Figure 1) revealed that `CGPA` does not exhibit a strong correlation with depression. This contrasts with the stronger influence of 'satisfaction' and 'pressure' on depression.
+
+![Correlation matrix](fig_corr_S_1.png)
+
+**Conclusions:**
+
+The addition of the `CGPA` feature did not improve the student model's performance.  In fact, the training accuracy slightly decreased to 0.85008.  Furthermore, with the same hyperparameters used in the previous student model, the test data accuracy also decreased to 0.94083.
+
+These results reinforce the conclusion that students require additional profile information to improve model accuracy.  Potentially relevant features might include family and relationship dynamics.
 
 
