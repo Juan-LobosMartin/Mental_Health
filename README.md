@@ -1,9 +1,7 @@
 # Mental_Health 
-Kaggle Playground Series - Season 4, Episode 11
+This repository documents my work on the Kaggle Playground competition for Season 4, Episode 11. 
 [Walter Reade and Elizabeth Park. Exploring Mental Health Data, 2024. Kaggle.](https://kaggle.com/competitions/playground-series-s4e11)
 
-This repository documents my work on the Kaggle Playground competition for Season 4, Episode 11. 
-`Last update as of Feb 12, 2025`
 
 ## Mental Health Prediction Project
 
@@ -86,3 +84,5 @@ The project emphasized the importance of feature engineering and targeted modeli
 *   **Deeper Cultural Understanding:**  Further research into the cultural context, particularly in India, could inform feature engineering and model interpretation.
 
 The project demonstrated a structured approach to model development, using an agile methodology and focusing on iterative improvements.  While the final accuracy approached the top score, the analysis suggests that focusing on feature engineering and a deeper understanding of the data could lead to further significant advancements.
+
+`Last update as of Feb 12, 2025`
